@@ -84,6 +84,8 @@ class TestExtractKeypoints(unittest.TestCase):
         cudasift.PyMatchSiftData(data1, data2)
         df1, keypoints1 = data1.to_data_frame()
         df2, keypoints2 = data2.to_data_frame()
+        print(keypoints1)
+        print(keypoints2)
         pass
 
 if __name__ == "__main__":

@@ -4,3 +4,4 @@ build
 *.so
 cudasift/_cudasift.cpp
 dist
+.vscode/
